@@ -83,7 +83,7 @@ Set-Location SpaceCouncil
 ### ChatGPT Codex
 
 1. Copy `.codex/` into your target project root.
-2. If the target project already has `.codex/config.toml`, merge the `forge-council agents` block instead of overwriting the whole file.
+2. If the target project already has `.codex/config.toml`, merge the `forge-spacecouncil agents` block instead of overwriting the whole file.
 3. Confirm these files exist:
    - `.codex/config.toml`
    - `.codex/agents/*.toml`
@@ -129,4 +129,4 @@ If your client supports slash-style skill invocation, use:
 
 ## Acknowledgments
 
-This project is inspired by the `forge-council` repository by N4M3Z. It was brought to life using `forge-core` skills BuildAgent and BuildSkill.....
+This project is inspired by the Forge Council repository by [N4M3Z](https://github.com/N4M3Z). It was brought to life using `forge-core` skills `BuildAgent` and `BuildSkill`.

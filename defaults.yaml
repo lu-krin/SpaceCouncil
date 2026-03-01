@@ -1,3 +1,4 @@
+# SpaceCouncil provider and routing defaults
 providers:
   claude:
     fast: claude-sonnet
