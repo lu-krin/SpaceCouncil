@@ -40,6 +40,63 @@ SpaceCouncil/
 └── .opencode/                      # Provider-installed artifacts
 ```
 
+## Installation
+
+### Prerequisites
+
+- `git` installed
+- One supported tool installed and authenticated:
+  - Anthropic Claude
+  - ChatGPT Codex
+  - Google Gemini
+
+### Clone on Linux
+
+```bash
+git clone <YOUR_GITHUB_REPO_URL>
+cd SpaceCouncil
+```
+
+### Clone on macOS
+
+```bash
+git clone <YOUR_GITHUB_REPO_URL>
+cd SpaceCouncil
+```
+
+### Clone on Windows (PowerShell)
+
+```powershell
+git clone <YOUR_GITHUB_REPO_URL>
+Set-Location SpaceCouncil
+```
+
+## Tool Setup
+
+### Anthropic Claude
+
+1. Copy `.claude/` and `.claude-plugin/` into your target project root.
+2. Copy `skills/SpaceCouncil/` into your target project at `skills/SpaceCouncil/`.
+3. Confirm `.claude-plugin/plugin.json` includes `"skills": ["./skills"]`.
+4. Start Claude in the project and invoke `SpaceCouncil` (for example: `/SpaceCouncil <topic>`).
+
+### ChatGPT Codex
+
+1. Copy `.codex/` into your target project root.
+2. If the target project already has `.codex/config.toml`, merge the `forge-council agents` block instead of overwriting the whole file.
+3. Confirm these files exist:
+   - `.codex/config.toml`
+   - `.codex/agents/*.toml`
+   - `.codex/skills/SpaceCouncil/SKILL.md`
+4. Start Codex in the project and run a SpaceCouncil prompt.
+
+### Google Gemini
+
+1. Copy `.gemini/` into your target project root.
+2. Copy `skills/SpaceCouncil/SKILL.md` into your target project at `skills/SpaceCouncil/SKILL.md`.
+3. Keep `defaults.yaml` entry `skills.gemini.SpaceCouncil` enabled.
+4. Start Gemini in the project and run a SpaceCouncil prompt.
+
 ## Usage
 
 Use your client's skill invocation mechanism and call `SpaceCouncil` with a decision question.
@@ -69,3 +126,7 @@ If your client supports slash-style skill invocation, use:
 - Designed for aerospace programs requiring evidence-driven, compliance-aware decisions.
 - Expects project documentation to exist in-repo (including common text and office/PDF formats).
 - Requires explicit uncertainty labeling when evidence is missing.
+
+## Acknowledgments
+
+This project is inspired by the `forge-council` repository by N4M3Z. It was brought to life using `forge-core` skills BuildAgent and BuildSkill.....
