@@ -1,6 +1,6 @@
 # SpaceCouncil
 
-SpaceCouncil is an aerospace multi-agent council module for cross-discipline mission decisions, trade studies, and risk posture calls. The tool is built mainly for project managers and as such omits the PM role.
+SpaceCouncil is an aerospace multi-agent council module for cross-discipline mission decisions, trade studies, and risk posture calls. The tool is built mainly for project managers and as such omits the PM role from the agent roster. Focus is on small ISS experiment to be delivered via ESA but it can easily be updated to cover larger engagements, or projects under NASA.
 
 It combines:
 - A council skill: [`SpaceCouncil`](skills/SpaceCouncil/SKILL.md)
