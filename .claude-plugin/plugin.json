@@ -1,0 +1,8 @@
+{
+  "name": "space-council",
+  "version": "0.1.0",
+  "description": "Aerospace multi-agent council module.",
+  "author": { "name": "SpaceCouncil" },
+  "hooks": {},
+  "skills": ["./skills"]
+}

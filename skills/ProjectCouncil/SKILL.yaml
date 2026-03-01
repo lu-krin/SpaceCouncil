@@ -1,0 +1,4 @@
+sources:
+  - https://www.ecss.nl
+claude:
+  argument-hint: "[topic or decision question]"

@@ -1,0 +1,74 @@
+providers:
+  claude:
+    fast: claude-sonnet
+    strong: claude-opus
+  gemini:
+    fast: gemini-2.0-flash
+    strong: gemini-2.5-pro
+  codex:
+    fast: gpt-5
+    strong: gpt-5
+  opencode:
+    fast: gpt-5-mini
+    strong: gpt-5
+
+agents:
+  HardwareEngineer:
+    model: fast
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  SoftwareEngineer:
+    model: fast
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  PrincipalInvestigator:
+    model: strong
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  ProductAssurance:
+    model: strong
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  SafetySecurity:
+    model: strong
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  ESARep:
+    model: strong
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+  TestManager:
+    model: strong
+    tools:
+      - Read
+      - Grep
+      - Glob
+      - Bash
+
+skills:
+  claude:
+    ProjectCouncil:
+  gemini:
+    ProjectCouncil:
+  codex:
+    ProjectCouncil:
+  opencode:
+    ProjectCouncil:
