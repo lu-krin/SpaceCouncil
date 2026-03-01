@@ -1,6 +1,6 @@
 # SpaceCouncil
 
-SpaceCouncil is an aerospace multi-agent council module for cross-discipline mission decisions, trade studies, and risk posture calls.
+SpaceCouncil is an aerospace multi-agent council module for cross-discipline mission decisions, trade studies, and risk posture calls. The tool is built mainly for project managers and as such omits the PM role.
 
 It combines:
 - A council skill: [`SpaceCouncil`](skills/SpaceCouncil/SKILL.md)
@@ -127,6 +127,14 @@ If your client supports slash-style skill invocation, use:
 - Expects project documentation to exist in-repo (including common text and office/PDF formats).
 - Requires explicit uncertainty labeling when evidence is missing.
 
+## License
+
+This project is licensed under the European Union Public Licence v1.2 (`EUPL-1.2`). See [LICENSE](LICENSE).
+
 ## Acknowledgments
 
-This project is inspired by the Forge Council repository by [N4M3Z](https://github.com/N4M3Z). It was brought to life using `forge-core` skills `BuildAgent` and `BuildSkill`.
+This project is inspired by the `forge-council` repository by [N4M3Z](https://github.com/N4M3Z). It was brought to life using `forge-core` skills `BuildAgent` and `BuildSkill`.
+
+## Warning
+
+LLM is an experimental technology and it will make mistakes. Always fully validate the outcomes of any LLM tool such as this one.

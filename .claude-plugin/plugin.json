@@ -2,6 +2,7 @@
   "name": "space-council",
   "version": "0.1.0",
   "description": "Aerospace multi-agent council module.",
+  "license": "EUPL-1.2",
   "author": { "name": "SpaceCouncil" },
   "hooks": {},
   "skills": ["./skills"]
