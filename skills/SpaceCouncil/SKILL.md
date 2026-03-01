@@ -1,11 +1,10 @@
 ---
-name: ProjectCouncil
+name: SpaceCouncil
 version: 0.1.0
 description: Run a full aerospace council using all local project agents with mandatory documentation review, ECSS fallback retrieval from www.ecss.nl when needed, structured debate, and one final verdict. USE WHEN you need cross-discipline decisions, trade studies, risk posture calls, or go/no-go recommendations.
-argument-hint: '[topic or decision question]'
 ---
 
-# ProjectCouncil
+# SpaceCouncil
 
 Run a multi-agent aerospace council using all project agents found in `agents/`, with mandatory project-document review before discussion.
 

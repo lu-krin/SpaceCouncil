@@ -65,10 +65,10 @@ agents:
 
 skills:
   claude:
-    ProjectCouncil:
+    SpaceCouncil:
   gemini:
-    ProjectCouncil:
+    SpaceCouncil:
   codex:
-    ProjectCouncil:
+    SpaceCouncil:
   opencode:
-    ProjectCouncil:
+    SpaceCouncil:
